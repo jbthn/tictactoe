@@ -232,3 +232,5 @@ To place an O in the bottom left corner, the value for row would be 2 and the va
 # Development Tips
 
 This project uses yarn's [Plug'n'Play installs](https://yarnpkg.com/features/pnp). There may be some additional configuration steps necessary for your IDE to understand how to resolve imports. See https://yarnpkg.com/getting-started/editor-sdks for instructions.
+
+Tested with node v17.4.0 and yarn v3.5.0.

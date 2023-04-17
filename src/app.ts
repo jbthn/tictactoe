@@ -14,7 +14,10 @@ const dbUrl = process.env.DB_URL || "mongodb://localhost:27017/tictactoe";
 const port = process.env.PORT || 3000;
 
 async function main() {
+  console.info("Starting up...");
+  console.info(`Trying to connect to ${dbUrl}...`);
   await mongoose.connect(dbUrl);
+  console.info("Connected");
 
   const app = new Koa();
   const router = new Router();

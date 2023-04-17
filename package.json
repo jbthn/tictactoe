@@ -2,9 +2,10 @@
   "name": "turnstile",
   "packageManager": "yarn@3.5.0",
   "scripts": {
-    "start": "nodemon src/app.ts",
+    "dev": "nodemon src/app.ts",
     "lint": "eslint . --ext .ts",
-    "test": "jest"
+    "test": "jest",
+    "start": "ts-node src/app.ts"
   },
   "dependencies": {
     "@koa/router": "^12.0.0",
